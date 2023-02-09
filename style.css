@@ -1,3 +1,470 @@
+
 body {
     background-color: black;
+    margin-top: 30px;
+    
 }
+
+
+
+
+.backgroundImage {
+    height: 600px;
+    width: 400px;
+    position: relative;
+
+}
+
+
+
+.mainDiv {
+    margin: auto;
+    height: auto;
+    width: 75%;
+    border: 1px solid red;
+    display: flex;  
+      
+}
+
+.photoSection {
+    position: relative;
+    display: inline-block;
+    height: 600px;
+    width: 400px;   
+    
+}
+
+
+.logoSection{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+    
+    background: rgba(0,0,0,0.4);
+   
+  
+}
+
+.icon{
+    width: 50%;  
+    color: white;
+    font-size: 32px;
+    margin: auto;
+    display: inline;
+    left: 70%;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 800;
+    text-shadow: 0 0 5px #0000FF;       
+}  
+
+.overlay{
+    width: 100%;
+    height: 15%;  
+    z-index: 9;
+    margin-top: 35.5%;
+    display: flex;  
+    text-align: center;
+
+
+}
+
+
+
+.logo{
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 25%;
+    vertical-align:top;
+    fill:white;
+    
+}
+
+
+
+.textSection {
+    background-color: black;
+    display: inline-block;
+    height: auto;
+    width: auto;  
+}
+
+
+.form-group.c1,
+.form-group.c2
+{
+display: inline-block;
+width: 49%;
+
+}
+
+
+.form-group.c1:focus,
+.form-group.c2:focus
+{
+
+border: 2px solid blue !important;
+
+}
+
+
+label, input {
+    display: block;
+    color: aliceblue;
+}
+
+   
+
+form {
+    margin-left: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    color:  white;
+    font-size: 12px;
+}
+
+input {
+    margin-bottom: 20px; 
+    font-family: 'Courier New', Courier, monospace;
+    color: black ;
+    }
+
+input:focus{
+    border: 2px solid blue !important;
+    }
+
+
+.text-group.t1,
+.text-group.t2{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size:16px;
+    color:  white;
+    text-align: left;
+    margin-left: 5%;
+    font-weight: bolder;
+  
+
+}
+
+.text-group.t1 {
+    margin-top: 20%;
+    
+}
+.text-group.t2 {
+    margin-top: 9%;
+    padding-top: 2%;
+}
+
+.formSection {
+    background-color: rgb(124, 10, 10);
+
+}
+
+button{
+    margin-top: 2.5%;
+    margin-left: 5%;
+    background-color: #f44336;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    color:  white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 1367px) and (max-width: 1921px) {
+
+    .mainDiv{
+     height:980px;
+     margin-top: 50px;
+     
+    }
+
+    .logoSection{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+        
+        
+        background: rgba(0,0,0,0.4);
+       
+      
+    }
+    
+    .icon{
+        width: 50%;  
+        color: white;
+        font-size: 48px;
+        margin: auto;
+        display: inline;
+        left: 70%;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 800;
+        text-shadow: 0 0 5px #0000FF;       
+    }  
+    
+    .overlay{
+        width: 150%;
+        height: 15%;  
+        z-index: 9;
+        margin-top: 50.5%;
+        display: flex;  
+        text-align: center;
+    
+    
+    }
+
+    
+    .backgroundImage {
+        height: 980px;
+        width: 600px;
+        position: relative;
+        
+
+    }
+    
+    .textSection {
+        background-color:black;
+        width: 65%;
+        margin-left: 14%;
+    
+            
+    } 
+
+    .text-group.t1{
+        height: 0.1%;
+    }
+
+    .text-group.t2{
+        height: 80%;
+        color:#0000FF;
+    }
+
+    .text-group.t1,
+    .text-group.t2{
+
+        font-family: 'Courier New', Courier, monospace;
+        font-size:24px;
+        color:  white;
+        text-align: left;
+        margin-left: 5%;
+        font-weight: bolder;
+    
+
+    }
+
+    form {
+        margin-left: 5%;
+        font-family: 'Courier New', Courier, monospace;
+        color:  white;
+        font-size: 18px;
+        margin-top: 5%;
+        
+    }
+
+    .formSection{
+        padding-bottom: 5%;
+       
+    }
+    
+
+
+    button{
+        margin-top: 2.5%;
+        margin-left: 5%;
+        background-color: #f44336;
+        border: none;
+        font-family: 'Courier New', Courier, monospace;
+        color:  white;
+        padding: 12px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    input {
+
+        margin-bottom: 20px; 
+        font-family: 'Courier New', Courier, monospace;
+        color: black ;
+    }
+
+    .formSection {
+        margin-top: 200px;
+        background-color: rgb(124, 10, 10);
+    
+    }
+
+    .buttonSection{
+        margin-top: 3%;
+    }
+
+  }
+
+
+  @media screen and (min-width: 0px) and (max-width: 360px){
+
+    
+    .mainDiv{
+       
+        height: 570px;
+        width: 75%;
+        border: 1px solid red;
+        display: flex;
+        margin-top: 35px;
+        
+       }
+   
+       .logoSection{
+           width: 100%;
+           position: absolute;
+           top: 0;
+           left: 0;              
+           background: rgba(0,0,0,0.4);  
+                    
+       }
+       
+       .icon{
+           width: 100%;  
+           color: white;
+           font-size: 18px;
+           margin: auto;
+           display: inline;
+           left: 70%;
+           font-family: 'Rajdhani', sans-serif;
+           font-weight: 800;
+           text-shadow: 0 0 5px #0000FF;   
+           margin-right: 10px;    
+       }  
+
+       .logo{
+        width: 50%;
+        text-align: right;
+        display: inline-block;
+        width: 90px;
+        height: 90px;
+        position: relative;
+        left: 1%;
+        vertical-align:top;
+        fill:white;
+        
+       }
+       
+       .overlay{
+           width: 100%;
+           height: 15%;  
+           z-index: 9;
+           margin-top: 90%;
+           display: flex;  
+           text-align: center;
+       
+       }
+   
+       
+       .backgroundImage {
+           height: 570px;
+           width: 130px;
+           position: relative;
+           
+   
+       }
+       
+       .textSection {
+           background-color:black;
+           width: 500px;
+         
+          
+       
+               
+       } 
+   
+       .text-group.t1{
+           height: 0.1%;
+       }
+   
+      
+           
+   
+       .text-group.t1,
+       .text-group.t2{
+   
+           font-family: 'Courier New', Courier, monospace;
+           font-size:12px;
+           color:  white;
+           text-align: left;
+           font-weight: bolder;
+           margin-left: 5%;
+       
+   
+       }
+   
+       form {
+         
+           font-family: 'Courier New', Courier, monospace;
+           color:  white;
+           font-size: 9px;
+           margin-top: 5%;
+           margin-left: 5%;
+           
+           
+       }
+   
+       .formSection{
+           padding-bottom: 10%;
+          
+       }
+       
+   
+   
+       button{
+           margin-top: 5%;
+           margin-left: 5%;
+           background-color: #f44336;
+           border: none;
+           font-family: 'Courier New', Courier, monospace;
+           color:  white;
+           padding: 12px 31px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 7px;
+           font-weight: bold;
+
+       }
+   
+       input {
+   
+           margin-bottom: 20px; 
+           font-family: 'Courier New', Courier, monospace;
+           color: black ;
+           width: 80px;
+
+           
+       }
+
+   
+       .formSection {
+           margin-top: 180px;
+           background-color: rgb(124, 10, 10);
+       
+       }
+   
+       .buttonSection{
+           margin-top: 6%;
+       }
+
+  }
